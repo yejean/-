@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.header("Hello")
+st.title("Hello")
 st.header("Welcome to my website!")
-st.write("환영합니다~!")
+st.subheader("환영합니다~!")
