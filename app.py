@@ -6,4 +6,4 @@ st.subheader("환영합니다~!")
 
 Clicked = st.button("시작하기")
 if Clicked :
-  st.write("버튼 클릭됨")
+  st.write("짠")
