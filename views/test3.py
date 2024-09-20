@@ -13,6 +13,10 @@ st.title("동전 던지기 게임")
 st.text("쫄?")
 st.divider()  # 가로 긴 줄 구분선
 
+col1, col2 = st.columns(2)
+col1.image('assets/coin_head.png')
+col2.image('assets/coin_tail.png')
+
 st.image('assets/coin_head.png')
 st.image('assets/coin_tail.png')
 st.subheader("동전 던지기 게임에 오신 것을 환영합니다^-^")
