@@ -9,7 +9,7 @@ st.image('assets/coin_tail.png')
 st.subheader("동전 던지기 게임에 오신 것을 환영합니다^-^")
 st.subheader("앞면일까요? 뒷면일까요?")
 
-if st.buttom("앞면"):
+if st.button("앞면"):
   st.text("진짜?")
-if st.buttom("뒷면"):
+if st.button("뒷면"):
   st.text("확실해?")
