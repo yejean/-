@@ -16,6 +16,8 @@ with col2:
     st.image('assets/coin_tail.png')
 
 st.subheader("동전 던지기 게임에 오신 것을 환영합니다^-^")
+
+computer = random.randint(0, 1)    # 컴퓨터 숫자 (0 앞면, 1 뒷면)
 st.subheader("앞면일까요? 뒷면일까요?")
 
 choice = -1    # 사용자 숫자 (초기값은 선택 안함을 의미하는 -1)
