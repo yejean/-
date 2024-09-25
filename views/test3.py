@@ -2,13 +2,6 @@ import streamlit as st
 import random
 
 # 게임 결과 내는 함수, guessNum는 사람 추측값(0:앞면, 1:뒷면)
-def playGame(guessNum):
-  comNum = random.randint(0,1)
-  if comNum == guessNum:
-    st.write("적중!~!")
-  else:
-    st.write("이걸 틀리네ㅋ")
-
 st.title("동전 던지기 게임")
 st.text("쫄?")
 st.divider()  # 가로 긴 줄 구분선
@@ -51,6 +44,6 @@ if choice != -1:  # 사용자가 동전 선택을 한 경우
     st.subheader("적중!!")
     st.balloons()
   else:
-    st.subheader("아쉽네요. 틀렸습니다.")
+    st.subheader("이걸 틀리네 ㅋ")
     
     st.button("다시 하기")
