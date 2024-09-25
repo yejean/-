@@ -42,4 +42,6 @@ if st.button("BMI 계산하기") :
         else :
             st.header(bmi_icon * 5)
             st.subheader("고도 비만입니다.")
+            st.balloons()
+            st.toast('살을 뺴보아요~')
 
