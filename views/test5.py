@@ -34,4 +34,4 @@ else :    # 전주
 if combo == True :
     price += 3_000    # price = price + 3000
 
-st.header(f"총 금액은 {price:,}원 입니다.")
+st.header(f"총 금액은 {price:,}원 입니다.") #변수에 들어있는 게 숫자값일 경우 :,을 뒤에 넣으면 천단위로 저절로 쉼표를 넣어줌
