@@ -9,8 +9,11 @@ st.divider()  # 가로 긴 줄 구분선
 col1, col2 = st.columns(2)
 col1.write('동전 앞면')
 col2.write('동전 뒷면')
-col1.image('assets/coin_head.png')
-col2.image('assets/coin_tail.png')
+
+with col1:
+    st.image('assets/coin_head.png')
+with col2:
+    st.image('assets/coin_tail.png')
 
 st.subheader("동전 던지기 게임에 오신 것을 환영합니다^-^")
 st.subheader("앞면일까요? 뒷면일까요?")
