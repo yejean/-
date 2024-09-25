@@ -36,12 +36,12 @@ test3_page = st.Page(
 )
 test4_page = st.Page(
     page="views/test4.py",
-    title="스트림릿 테스트 4",
+    title="당신의 체중",
     icon=":material/sentiment_satisfied:",
 )
 test5_page = st.Page(
     page="views/test5.py",
-    title="스트림릿 테스트 5",
+    title="출출할 때",
     icon=":material/sentiment_satisfied:",
 )
 
