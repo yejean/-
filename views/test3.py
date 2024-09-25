@@ -50,6 +50,6 @@ if choice != -1:  # 사용자가 동전 선택을 한 경우
     st.snow()
   else:
     st.subheader("이걸 틀리네 ㅋ")
-    st.error('틀렸대요~')
+    st.toast('틀렸대요~')
     
     st.button("다시 하기")
